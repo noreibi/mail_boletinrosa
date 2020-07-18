@@ -1,0 +1,131 @@
+div.boletin {
+  background-color: #f4f4f4;
+  max-width: 600px;
+  height: 750px;
+  margin-left: auto;
+  margin-right: auto;
+
+  div.header {
+    background-color: #ec6d64;
+    padding-top: 70px;
+    height: 66px;
+    p {
+      align-items: center;
+      font-size: 12px;
+      line-height: 18px;
+    }
+  }
+
+  div.card1 {
+    background-color: white;
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 28px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-bottom: 35px;
+    h1 {
+      text-align: center;
+      font-size: 28px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: lighter;
+      letter-spacing: 3px;
+      margin-top: 0px;
+    }
+
+    p {
+      text-align: center;
+      color: #676561;
+      margin-bottom: 40px;
+      font-family: Helvetica;
+    }
+    button {
+      color: #fafafa;
+      background-color: #ec6d64;
+      border: none;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 15px;
+      padding-right: 15px;
+      font-size: 12px;
+    }
+  }
+
+  div.card2 {
+    background-color: rgb(1, 1, 1);
+    width: 360px;
+    height: 132;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 14px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-bottom: 24px;
+
+    h2 {
+      font-size: 14px;
+      color: white;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: lighter;
+    }
+    p {
+      color: #676561;
+      font-size: 10px;
+      font-family: Helvetica;
+    }
+    a {
+      font-size: 12px;
+      color: #ec6d64;
+    }
+  }
+
+  div.card3 {
+    background-color: #ffe0de;
+    width: 360px;
+    height: 67px;
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 14px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h2 {
+      text-align: center;
+      font-size: 12px;
+      font-family: Helvetica;
+      font-weight: bold;
+      color: rgb(1, 1, 1);
+    }
+
+    a {
+      text-align: center;
+      color: #ec6d64;
+      font-size: 12px;
+    }
+  }
+
+  Footer {
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #676561;
+    margin-top: 10px;
+    padding-top: 10px;
+    font-family: Helvetica;
+    a {
+      color: black;
+      font-size: 10px;
+      font-weight: bold;
+    }
+    p {
+      font-size: 8px;
+    }
+  }
+}
